@@ -1,0 +1,15 @@
+.header {
+  background-color: grey;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  width: 80%;
+}
+.sidebar {
+  width: 20%;
+}
