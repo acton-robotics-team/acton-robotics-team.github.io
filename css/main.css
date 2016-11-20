@@ -1,15 +1,30 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .header {
   background-color: grey;
+  border: 1px solid black;
 }
 
 .content {
+  border: 1px solid blue;
   display: flex;
   flex-direction: row;
 }
 
 .main {
   width: 80%;
+  border: 1px solid green;
 }
 .sidebar {
   width: 20%;
+  border: 1px solid red;
+}
+.footer {
+  border: 1px solid purple;
 }
