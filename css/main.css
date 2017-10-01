@@ -19,12 +19,12 @@ html {
 
 .main {
   width: 80%;
-  border: 1px solid green;
+  border: none;
 }
 .sidebar {
   width: 20%;
-  border: 1px solid red;
+  border: none;
 }
 .footer {
-  border: 1px solid purple;
+  border: none;
 }
