@@ -7,12 +7,12 @@ html {
 }
 
 .header {
-  background-color: grey;
-  border: 1px solid black;
+  background-color: none;
+  border: none;
 }
 
 .content {
-  border: 1px solid blue;
+  border: none;
   display: flex;
   flex-direction: row;
 }
