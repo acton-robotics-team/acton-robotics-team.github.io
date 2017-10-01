@@ -18,13 +18,9 @@ html {
 }
 
 .main {
-  width: 80%;
   border: none;
 }
-.sidebar {
-  width: 20%;
-  border: none;
-}
+
 .footer {
   border: none;
 }
